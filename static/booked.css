@@ -1,0 +1,22 @@
+.body {
+    background-image: url(https://i.fbcd.co/products/original/e2ff864329621da8f99a789a1d0cd2544e1e9a629626d6631dfd7ccaa9f5d8b9.jpg);
+}
+
+.confirmation{
+    color: antiquewhite;
+    text-shadow: 0px -4px 2px rgba(0,0,0,0.6);
+    display: flex;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+
+}
