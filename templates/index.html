@@ -5,15 +5,15 @@
     <link rel="stylesheet" href="/static/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faded</title>
-    <h1 class="centertext">Faded</h1>
+    <title>Clip</title>
+    <h1 class="centertext">Clip</h1>
 </head>
 <body class="body">
     <form action="/booked" method="get" class="form">
         <input class="input" automcomplete="off" autofocus placeholder="Name" name="name" type="text">
-        <input class="input" autocomplete="off" placeholder="Phone Number" type="text">
-        <input class="input" autocomplete="off" placeholder="MM/DD/YYYY" type="text" name="date">
-        <input class="input" autocomplete="off" placeholder="Time" type="text" name="time">
+        <input class="input" autocomplete="off" placeholder="(000) - 000 - 0000" type="tel" name="number">
+        <input class="input" autocomplete="off" placeholder="MM/DD/YYYY" type="date" name="date">
+        <input class="input" autocomplete="off" placeholder="Time" type="time" name="time">
 
         <button class="book-button" type="submit">Book Appointment</button>
     </form>
