@@ -5,27 +5,46 @@
 .form {
     margin: 20%;
     text-align: center;
-
+    display: grid;
+   
+}
+.input {
+ border-radius: 40px;
+ text-align: center;
+ padding: 2%;
+ margin: auto;
+ width: 40%;
+ margin-bottom: 2%;
+ 
 }
 .book-button {
     background-color: rgb(15, 126, 195);
-    border-radius: 5px;
+    border-radius: 7px;
     color: white;
     border: transparent;
     box-shadow:10px 10px 15px -4px rgba(0,0,0,0.62);
-    width: 15%;
-    padding: .5%;
+    width: 20%;
+    padding: 1.5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
+    display: flex;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: 26%;
+
 }
 
 .book-button:hover {
     background-color: rgb(15, 145, 226);
 }
 
-.input-names {
-   border-radius: 5px;
-}
+
 
 .body {
     background-image: url(https://static.vecteezy.com/system/resources/previews/030/602/469/non_2x/barber-shop-chair-classic-retro-vintage-ai-generative-free-photo.jpg);
