@@ -11,5 +11,5 @@ def index():
  
 @app.route("/booked")
 def booked():
-    return render_template("booked.html", name=request.args.get("name", "valued customer")) 
+    return render_template("booked.html", name=request.args.get("name", "valued customer"), date=request.args.get("date", "null"), time=request.args.get("time","null"))
 
