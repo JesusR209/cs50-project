@@ -1,5 +1,11 @@
 .body {
     background-image: url(https://i.fbcd.co/products/original/e2ff864329621da8f99a789a1d0cd2544e1e9a629626d6631dfd7ccaa9f5d8b9.jpg);
+    background-size: cover;
+    background-position: center center; /* Optional: Center the background image */
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    scroll-snap-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .confirmation{
@@ -19,3 +25,4 @@
     bottom: 0;
     text-align: center;
 }
+

@@ -49,4 +49,10 @@
 
 .body {
     background-image: url(https://static.vecteezy.com/system/resources/previews/030/602/469/non_2x/barber-shop-chair-classic-retro-vintage-ai-generative-free-photo.jpg);
+    background-size: cover;
+    background-position: center center; /* Optional: Center the background image */
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    scroll-snap-type: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
