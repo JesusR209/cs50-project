@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/registrants.css">
+</head>
+<body>
+    <div class="apt-box">
+        {% for name,number,date,time in registrants %}
+        <p>Name: {{ name }}</p>
+        <p>Phone: {{number}}</p>
+        <p>Date: {{ date }}</p>
+        <p>Time: {{ time }}</p>
+        <hr>
+        {% endfor %}
+    </div>
+</body>
+</html>

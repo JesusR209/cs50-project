@@ -1,0 +1,10 @@
+.apt-box {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: -2px 11px 27px -6px rgba(0,0,0,0.75);
+    width: 20%;
+    
+}
+body {
+    background-color: black;
+}
